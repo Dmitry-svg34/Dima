@@ -10,6 +10,12 @@ public class MonthData {
         }
     }
 
+    void printFirstDay() {
+        for (int i = 0; i < days.length; i++) {
+            System.out.println((i + 1) + "-й день: " + days[i]);
+        }
+    }
+
     int sumStepsFromMonth() {
         int sumSteps = 0;
         for (int i = 0; i < days.length; i++) {
